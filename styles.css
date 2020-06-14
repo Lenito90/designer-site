@@ -115,6 +115,7 @@ section.projects{
 
 .title{
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /*
@@ -326,9 +327,9 @@ h2.subheading{
     flex-grow: 1;
 }
 
-.black-subtitle{
+.blue-subtitle{
     font-weight: var(--text1-bold);
-    color: var(--black-900);
+    color: var(--blue-500);
 }
 
 .year, .level{
@@ -355,7 +356,9 @@ h2.subheading{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: var(--spacing-16);
+    align-content: center;
+    padding-bottom: var(--spacing-16);
+    padding-top: var(--spacing-16);
 }
 
 .panel{
