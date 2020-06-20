@@ -59,6 +59,10 @@ p, ul,li{
 
 /* styles */
 
+.project_img_intro{
+    image-rendering: -moz-crisp-edges;
+}
+
 /* Work styles begin */
 
 section.projects{
