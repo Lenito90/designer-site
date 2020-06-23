@@ -292,6 +292,24 @@ section.about{
     "personality tools education"
 }
 
+section.quicklinks{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-top: var(--spacing-64);
+    justify-content: space-around;
+}
+
+
+.welcome-block{
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 380px;
+    border-radius: var(--border-default);
+    border: 1px solid var(--blue-500);
+    margin: var(--spacing-8);
+}
+
 section.other{
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
