@@ -78,8 +78,8 @@ section.projects{
 
 .project-example{
     background-color: white;
-    border-radius: var(--border-default);
-    border: 1px solid var(--blue-500);
+    border-radius: 18px;
+    border: 2px solid var(--blue-500);
     box-shadow: var(--elevation-default);
 }
 
@@ -112,7 +112,7 @@ section.projects{
 
 .divider{
     color: var(--black-100);
-    border-top: 1px solid;
+    border-top: 2px solid;
     margin-top: var(--spacing-64);
     margin-bottom: var(--spacing-64);
 }
@@ -222,7 +222,7 @@ nav{
 .logo{
     margin-top: var(--spacing-32);
     margin-left: var(--spacing-32);
-    margin-bottom: 420px;
+    margin-bottom: 56vh;
     display: grid;
     /*grid-template-columns: 1fr 1fr;*/
     grid-template-columns: 40px auto;
@@ -265,7 +265,7 @@ h1{
 .contact{
     background-color: var(--black-100);
     border-radius: var(--border-default);
-    border: 1px solid var(--black-200);
+    border: 2px solid var(--black-200);
     padding: var(--spacing-16);
     box-shadow: var(--elevation-default);
     display: inline-block;
@@ -304,10 +304,7 @@ section.quicklinks{
 .welcome-block{
     flex-grow: 1;
     flex-basis: 0;
-    height: 380px;
-    border-radius: var(--border-default);
-    border: 1px solid var(--blue-500);
-    margin: var(--spacing-8);
+    height: 450px;
 }
 
 section.other{
@@ -384,7 +381,7 @@ h2.subheading{
 }
 
 .panel{
-    border-bottom: 1px solid var(--black-200);
+    border-bottom: 2px solid var(--black-100);
 }
 
 .position-details, .position-info{
@@ -423,3 +420,17 @@ footer li:not(:last-child){
 }
 
 /* footer end */
+
+/* Responsive */
+
+@media only screen and (max-width: 1220px) {
+    body {
+      background-color: lightgrey;
+    }
+
+  .panel-content{
+    flex-direction: column;
+    column-gap: var(--spacing-16);
+}
+
+}
