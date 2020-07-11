@@ -3,7 +3,7 @@
 html{
     --black-100: #f5f5f5;
     --black-200: #E9E9E9;
-    --blue-500: #2F59F5;
+    --blue-500: #1A3EFB;
     --black-900: rgba(0, 0, 0, 0.88);
     --hover-color: #EBEBEB; 
     --footer-color: #2F2F2F; 
@@ -59,30 +59,72 @@ p, ul,li{
 
 /* styles */
 
-.project_img_intro{
-    image-rendering: -moz-crisp-edges;
-}
+
 
 /* Work styles begin */
 
 section.projects{
     margin-top: var(--spacing-64);
     display: grid;
+    width: 954px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 217px 217px;
+    grid-template-rows: 220px 220px;
     grid-gap: var(--spacing-40);
     grid-template-areas: 
     "project project"
     "project project"
 }
 
-.project-example{
+
+.project-example1{
     background-color: white;
-    border-radius: 18px;
-    border: 2px solid var(--blue-500);
+    border-radius: 16px;
     box-shadow: var(--elevation-default);
+    background:#FFF url('Assets/project1-thumb.svg');
 }
 
+.project-example2{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: var(--elevation-default);
+    background:#FFF url('Assets/project2-thumb.svg');
+}
+
+.project-example3{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: var(--elevation-default);
+    background:#FFF url('Assets/project3-thumb.svg');
+}
+
+.project-example4{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: var(--elevation-default);
+    background:#FFF url('Assets/project4-thumb.svg');
+}
+
+.project-example1:hover{
+    cursor: pointer;
+    background:#FFF url('Assets/project1-hover.svg');
+}
+
+.project-example2:hover{
+    cursor: pointer;
+    background:#FFF url('Assets/project2-hover.svg');
+}
+
+.project-example3:hover{
+    cursor: pointer;
+    background:#FFF url('Assets/project3-hover.svg');
+}
+
+.project-example4:hover{
+    cursor: pointer;
+    background:#FFF url('Assets/project4-hover.svg');
+}
+
+/*
 .project-info{
     padding: var(--spacing-16);
 }
@@ -93,18 +135,15 @@ section.projects{
 
 .project-thumb{
     height: 130px;
-    background-color: var(--blue-500);
+    /*background-color: var(--blue-500);
+    background:#000 url('Assets/edu-stationary.svg');
     border-top-left-radius: var(--border-default);
     border-top-right-radius: var(--border-default);
 }
 
-.project-example:hover{
-    cursor: pointer;
-}
-
 .project-info:hover{
     color: var(--blue-500);
-}
+}*/
 
 /* Work styles end */
 
@@ -263,7 +302,7 @@ h1{
 }
 
 .contact{
-    background-color: var(--black-100);
+    background-color: white;
     border-radius: var(--border-default);
     border: 2px solid var(--black-200);
     padding: var(--spacing-16);
@@ -305,6 +344,7 @@ section.quicklinks{
     flex-grow: 1;
     flex-basis: 0;
     height: 450px;
+    width: 1200px;
 }
 
 section.other{
@@ -402,7 +442,7 @@ display: none;
 /* footer begin */
 
 footer{
-    background-color: var(--footer-color);
+    background-color: var(--black-900);
     display: flex;
     color: white;
     justify-content: space-between;
