@@ -336,14 +336,11 @@ section.quicklinks{
     flex-direction: row;
     align-items: stretch;
     margin-top: var(--spacing-64);
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
-
-.welcome-block{
-    flex-grow: 1;
-    flex-basis: 0;
-    height: 450px;
+img.quicklinks{
+    height: 120px;
 }
 
 section.other{
